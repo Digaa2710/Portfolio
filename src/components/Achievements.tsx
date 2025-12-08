@@ -36,7 +36,7 @@ const Achievements = () => {
   return (
     <section id="achievements" className="py-16 xl:py-24 bg-muted/30">
       <div className="container mx-auto px-4 xl:px-6">
-        <div className="text-center mb-12 xl:mb-16">
+        <div className="text-center mb-12 xl:mb-16 animate-fade-in">
           <h2 className="text-3xl xl:text-5xl font-bold mb-4">
             <span className="gradient-text">Achievements & Recognition</span>
           </h2>
@@ -51,17 +51,18 @@ const Achievements = () => {
             return (
               <Card
                 key={index}
-                className={`bg-card border-border transition-all duration-300 hover:shadow-xl ${
+                className={`bg-card border-border transition-all duration-300 hover:shadow-xl hover:-translate-y-1 animate-slide-up ${
                   achievement.highlight
                     ? "border-primary/50 hover:border-primary shadow-lg shadow-primary/10"
                     : "hover:border-primary/30 hover:shadow-primary/5"
                 }`}
+                style={{ animationDelay: `${index * 150}ms` }}
               >
                 <CardHeader>
                   <div className="flex items-start gap-4">
                     <div
-                      className={`p-3 rounded-lg ${
-                        achievement.highlight ? "bg-primary/20" : "bg-muted"
+                      className={`p-3 rounded-lg transition-transform hover:scale-110 ${
+                        achievement.highlight ? "bg-primary/20 animate-pulse-slow" : "bg-muted"
                       }`}
                     >
                       <Icon

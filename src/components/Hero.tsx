@@ -19,28 +19,28 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 xl:px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-6 xl:space-y-8">
-          <Badge className="bg-primary/20 text-primary border-primary/30 hover:bg-primary/30 text-sm xl:text-base px-4 py-2">
+          <Badge className="bg-primary/20 text-primary border-primary/30 hover:bg-primary/30 text-sm xl:text-base px-4 py-2 animate-fade-in">
             <Trophy className="w-4 h-4 xl:w-5 xl:h-5 mr-2" />
             Women Who Code Fullstack Hackathon Winner
           </Badge>
 
-          <h1 className="text-4xl xl:text-7xl font-bold leading-tight">
+          <h1 className="text-4xl xl:text-7xl font-bold leading-tight animate-slide-up" style={{ animationDelay: "200ms" }}>
             <span className="gradient-text">MERN Stack Engineer</span>
             <br />
             <span className="text-foreground">AI/ML Practitioner</span>
           </h1>
 
-          <p className="text-lg xl:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg xl:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: "400ms" }}>
             Specializing in Natural Language Processing and Explainable AI (XAI) with expertise in 
             full-stack development using MERN and Java. Building intelligent, scalable solutions 
             from Mumbai.
           </p>
 
-          <div className="flex flex-col xl:flex-row items-center justify-center gap-4 pt-4">
+          <div className="flex flex-col xl:flex-row items-center justify-center gap-4 pt-4 animate-fade-in" style={{ animationDelay: "600ms" }}>
             <Button
               size="lg"
               onClick={() => scrollToSection("projects")}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground w-full xl:w-auto"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground w-full xl:w-auto hover:scale-105 transition-transform"
             >
               View Projects
             </Button>
@@ -48,7 +48,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               onClick={() => scrollToSection("contact")}
-              className="border-primary text-primary hover:bg-primary/10 w-full xl:w-auto"
+              className="border-primary text-primary hover:bg-primary/10 w-full xl:w-auto hover:scale-105 transition-transform"
             >
               Get in Touch
             </Button>

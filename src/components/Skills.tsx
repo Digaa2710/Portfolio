@@ -49,7 +49,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-16 xl:py-24 bg-background">
       <div className="container mx-auto px-4 xl:px-6">
-        <div className="text-center mb-12 xl:mb-16">
+        <div className="text-center mb-12 xl:mb-16 animate-fade-in">
           <h2 className="text-3xl xl:text-5xl font-bold mb-4">
             <span className="gradient-text">Skills & Tech Stack</span>
           </h2>
@@ -64,11 +64,12 @@ const Skills = () => {
             return (
               <Card
                 key={index}
-                className="bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
+                className="bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1 animate-slide-up"
+                style={{ animationDelay: `${index * 150}ms` }}
               >
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3 text-xl xl:text-2xl">
-                    <div className="p-2 rounded-lg bg-primary/10">
+                    <div className="p-2 rounded-lg bg-primary/20 animate-pulse-slow">
                       <Icon className="w-5 h-5 xl:w-6 xl:h-6 text-primary" />
                     </div>
                     {category.title}
@@ -79,8 +80,9 @@ const Skills = () => {
                     {category.skills.map((skill, skillIndex) => (
                       <Badge
                         key={skillIndex}
-                        variant="secondary"
-                        className="bg-muted hover:bg-primary/20 hover:text-primary transition-colors text-sm px-3 py-1"
+                        variant="outline"
+                        className="bg-primary/10 border-primary/30 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-sm px-3 py-1.5 cursor-default hover:scale-105 animate-fade-in"
+                        style={{ animationDelay: `${(index * 150) + (skillIndex * 50)}ms` }}
                       >
                         {skill}
                       </Badge>

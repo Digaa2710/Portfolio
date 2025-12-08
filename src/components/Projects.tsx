@@ -46,7 +46,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-16 xl:py-24 bg-muted/30">
       <div className="container mx-auto px-4 xl:px-6">
-        <div className="text-center mb-12 xl:mb-16">
+        <div className="text-center mb-12 xl:mb-16 animate-fade-in">
           <h2 className="text-3xl xl:text-5xl font-bold mb-4">
             <span className="gradient-text">Featured Projects</span>
           </h2>
@@ -59,13 +59,14 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 overflow-hidden group"
+              className="bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 overflow-hidden group hover:-translate-y-2 animate-slide-up"
+              style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="relative h-48 xl:h-56 bg-gradient-to-br from-primary/20 to-secondary/20 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
               </div>
@@ -85,7 +86,7 @@ const Projects = () => {
                     <Badge
                       key={techIndex}
                       variant="outline"
-                      className="border-primary/30 text-primary text-xs"
+                      className="border-primary/30 text-primary text-xs hover:bg-primary hover:text-primary-foreground transition-all"
                     >
                       {tech}
                     </Badge>
@@ -97,7 +98,7 @@ const Projects = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="flex-1 border-primary/30 hover:bg-primary/10"
+                  className="flex-1 border-primary/30 hover:bg-primary/10 hover:scale-105 transition-transform"
                   asChild
                 >
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
@@ -107,7 +108,7 @@ const Projects = () => {
                 </Button>
                 <Button
                   size="sm"
-                  className="flex-1 bg-primary hover:bg-primary/90"
+                  className="flex-1 bg-primary hover:bg-primary/90 hover:scale-105 transition-transform"
                   asChild
                 >
                   <a href={project.demo} target="_blank" rel="noopener noreferrer">
