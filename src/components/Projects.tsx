@@ -6,55 +6,55 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "AI-Powered Text Summarizer",
-      description:
-        "Advanced NLP application leveraging Hugging Face Transformers for intelligent text summarization. Features real-time processing, multi-language support, and customizable summary lengths with a modern React interface.",
-      technologies: ["Next.js", "Python", "Transformers", "Node.js", "MongoDB"],
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/3b377cec-db9e-4486-935c-6a9c32ba0cb7.jpg",
-      github: "#",
-      demo: "#",
-      category: "AI/ML",
-    },
+  title: "Sentinel-XAI",
+  description:
+    "An advanced Machine Learning system developed for credit risk assessment. The core model is integrated with LIME and SHAP to deliver Explainable AI (XAI) outputs. The system provides immediate, local explanations that detail the precise feature contributions to every risk prediction, ensuring transparency and trust in the ML pipeline.",
+  technologies: ["Python", "SHAP", "LIME", "Scikit-learn", "Pandas", "Matplotlib", "Jupyter/Colab"],
+  image: "https://miaoda-site-img.s3cdn.medo.dev/images/3b377cec-db9e-4486-935c-6a9c32ba0cb7.jpg", 
+  github: "https://github.com/Digaa2710/Sentinel-XAI",
+  demo: "#",
+  category: "AI/ML (XAI Focus)",
+},
     {
-      title: "Sentiment Analysis Platform",
-      description:
-        "Machine learning platform for real-time sentiment analysis of social media content and customer feedback. Implements advanced NLP techniques with interactive visualizations and comprehensive analytics dashboards.",
-      technologies: ["Python", "NLTK", "SpaCy", "TensorFlow", "React", "Flask"],
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/1b9ffdd7-ed48-42e7-9aa0-b9c5e790cf74.jpg",
-      github: "#",
-      demo: "#",
-      category: "AI/ML",
-    },
+  title: "ZevEx: Cross-Lingual Event Extraction (NLP)",
+  description:
+    "Developed a Q&A-based event extraction model using XLM-RoBERTa-Large to identify Event Actor, Event Type, and Event Reason from news statements. Applied zero-shot cross-lingual transfer learning to evaluate the model on Gujarati (F1: 80.7%) and Marathi (F1: 82.95%) datasets. This project demonstrated the effectiveness of multilingual transformers in generalizing event extraction tasks to low-resource Indian languages.",
+  technologies: ["XLM-RoBERTa-Large", "Transformers", "Hugging Face", "Python", "NLP"],
+  image: "https://miaoda-site-img.s3cdn.medo.dev/images/1b9ffdd7-ed48-42e7-9aa0-b9c5e790cf74.jpg", 
+  github: "https://github.com/Digaa2710/ZevEx",
+  demo: "#", 
+  category: "AI/ML (NLP Focus)",
+},
+{
+  title: "Noteng",
+  description:
+    "Developed the entire frontend using React.js and Tailwind CSS. Noteng serves as an optimized, responsive, and accessible resource hub, helping college students quickly access notes, video lectures, and competition materials via a clean, reusable component library.",
+  technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML5", "CSS3"],
+  image: "https://miaoda-site-img.s3cdn.medo.dev/images/d7a8a88f-a134-4f9f-b6ff-ecfec90440d6.jpg", // Placeholder image URL for a clean dashboard/UI
+  github: "https://github.com/Digaa2710/noteng", 
+  demo: "https://noteng.vercel.app/", 
+  category: "Web Development (Front-End)",
+},
+{
+  title: "SmartMail",
+  description:
+    "Built an end-to-end AI-powered email system using Java Full Stack (Spring Boot). The application utilizes a Large Language Model (LLM) for advanced communication automation, analyzing the tone of incoming emails and generating context-aware responses via sophisticated Prompt Engineering and robust REST APIs. The frontend is built with React.js.",
+  technologies: ["Java", "Spring Boot", "React.js", "Large Language Model (LLM)", "REST APIs", "Prompt Engineering"],
+  image: "https://miaoda-site-img.s3cdn.medo.dev/images/1be9f0f3-755c-47a7-8829-8cd7627cc654.jpg", 
+  github: "https://github.com/Digaa2710/Job-Scraper", 
+  demo: "#", 
+  category: "Full-Stack AI (Java/LLM)",
+},
     {
-      title: "E-Commerce Platform",
-      description:
-        "Full-featured e-commerce application with user authentication, product management, shopping cart, and payment integration. Built with MERN stack featuring responsive design and real-time inventory updates.",
-      technologies: ["React", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/d7a8a88f-a134-4f9f-b6ff-ecfec90440d6.jpg",
-      github: "#",
-      demo: "#",
-      category: "Development",
-    },
-    {
-      title: "Social Media Dashboard",
-      description:
-        "Comprehensive social media management platform with post scheduling, analytics tracking, and multi-account support. Features real-time notifications, engagement metrics, and content calendar management.",
-      technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io"],
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/1be9f0f3-755c-47a7-8829-8cd7627cc654.jpg",
-      github: "#",
-      demo: "#",
-      category: "Development",
-    },
-    {
-      title: "Real-Time Chat Application",
-      description:
-        "Modern messaging platform with real-time communication, group chats, file sharing, and end-to-end encryption. Built with WebSocket technology for instant message delivery and online status tracking.",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express.js"],
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/0dd7cbd5-f95f-45cc-82ae-11832344c4e6.jpg",
-      github: "#",
-      demo: "#",
-      category: "Development",
-    },
+  title: "SummarHire",
+  description:
+    "Built a full-stack job scraper that demonstrates end-to-end integration. The backend uses Flask and Selenium to extract job listings from a target site (Zepto). The core innovation is using DeepSeek AI to summarize lengthy job descriptions, which are then rendered as interactive, responsive cards on a React.js + TailwindCSS frontend.",
+  technologies: ["React.js", "Tailwind CSS", "Flask", "Selenium", "DeepSeek AI", "Python", "JavaScript"],
+  image: "https://miaoda-site-img.s3cdn.medo.dev/images/0dd7cbd5-f95f-45cc-82ae-11832344c4e6.jpg", 
+  github: "https://github.com/Digaa2710/Job-Scraper", 
+  demo: "#", 
+  category: "Full-Stack AI/Web",
+}
   ];
 
   return (

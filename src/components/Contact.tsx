@@ -20,13 +20,13 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect on LinkedIn",
-      link: "#",
+      link: "https://www.linkedin.com/in/divya-gandhi-",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "View GitHub Profile",
-      link: "#",
+      link: "https://github.com/Digaa2710",
     },
   ];
 

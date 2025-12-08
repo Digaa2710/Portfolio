@@ -5,35 +5,25 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "MERN Stack Developer Intern",
-      company: "Tech Company Name",
-      period: "Month Year - Month Year",
-      description: [
-        "Developed and maintained RESTful APIs using Node.js and Express.js, improving application performance by 30%",
-        "Built responsive React components with modern state management patterns and hooks",
-        "Designed and optimized MongoDB database schemas for efficient data retrieval",
-        "Collaborated with cross-functional teams using Git for version control and code reviews",
-      ],
-      type: "internship",
-    },
-    {
-      title: "Data Science Analyst Internship",
-      company: "Analytics Firm Name",
-      period: "Month Year - Month Year",
-      description: [
-        "Implemented and fine-tuned NLP models using Hugging Face Transformers for text classification",
-        "Conducted comprehensive data analysis using Python, Pandas, and NumPy for business insights",
-        "Developed machine learning pipelines for automated data processing and model deployment",
-        "Created interactive business intelligence dashboards using Power BI for stakeholder reporting",
-      ],
-      type: "internship",
-    },
+  title: "Full-Stack Web Developer",
+  company: "Oggntech",
+  period: "July 2024 – September 2024",
+  location: "Mumbai, Maharashtra",
+  description: [
+    "Developed and deployed responsive full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js), ensuring seamless integration and user-friendly interfaces.",
+    "Utilized Figma for comprehensive UI/UX design, translating high-fidelity prototypes into functional web components.",
+    "Optimized MySQL queries and designed efficient database structures for improved application performance.",
+    "Collaborated with cross-functional teams to integrate RESTful APIs, enhance frontend design, and improve overall application performance."
+  ],
+  type: "Internship",
+},
+    
   ];
 
   const education = {
-    degree: "B.Tech in Computer Science and Engineering",
-    institution: "University Name, Mumbai",
-    period: "Year - Year",
+    degree: "B.Tech in Computer Engineering",
+    institution: "Dwarkadas J.Sanghvi College of Engineering, Mumbai",
+    period: "2022 - 2026",
     coursework: [
       "Data Structures",
       "Algorithms",

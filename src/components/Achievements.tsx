@@ -10,27 +10,14 @@ const Achievements = () => {
         "First place winner in a competitive fullstack development hackathon, showcasing innovative solutions and technical excellence",
       highlight: true,
     },
-    {
-      icon: GitBranch,
-      title: "Top Contributor on GitHub",
-      description:
-        "Recognized for consistent open-source contributions and maintaining high-quality code repositories",
-      highlight: false,
-    },
-    {
-      icon: Award,
-      title: "Technical Certifications",
-      description:
-        "Completed advanced certifications in cloud computing, machine learning, and modern web development frameworks",
-      highlight: false,
-    },
-    {
-      icon: Star,
-      title: "Academic Excellence",
-      description:
-        "Maintained outstanding academic performance with recognition for exceptional project work and research contributions",
-      highlight: false,
-    },
+    
+   {
+  icon: 'GitBranch', 
+  title: "Hacktoberfest Super Contributor & Top Contributor",
+  description:
+    "Successfully completed Hacktoberfest, earning the Super Contributor badge. Recognized for consistent and high-quality contributions to open-source projects and maintaining active code repositories.",
+  highlight: true, 
+},
   ];
 
   return (
