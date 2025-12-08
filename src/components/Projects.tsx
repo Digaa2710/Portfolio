@@ -13,6 +13,17 @@ const Projects = () => {
       image: "https://miaoda-site-img.s3cdn.medo.dev/images/3b377cec-db9e-4486-935c-6a9c32ba0cb7.jpg",
       github: "#",
       demo: "#",
+      category: "AI/ML",
+    },
+    {
+      title: "Sentiment Analysis Platform",
+      description:
+        "Machine learning platform for real-time sentiment analysis of social media content and customer feedback. Implements advanced NLP techniques with interactive visualizations and comprehensive analytics dashboards.",
+      technologies: ["Python", "NLTK", "SpaCy", "TensorFlow", "React", "Flask"],
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/1b9ffdd7-ed48-42e7-9aa0-b9c5e790cf74.jpg",
+      github: "#",
+      demo: "#",
+      category: "AI/ML",
     },
     {
       title: "E-Commerce Platform",
@@ -22,24 +33,27 @@ const Projects = () => {
       image: "https://miaoda-site-img.s3cdn.medo.dev/images/d7a8a88f-a134-4f9f-b6ff-ecfec90440d6.jpg",
       github: "#",
       demo: "#",
+      category: "Development",
     },
     {
-      title: "Explainable AI Model Dashboard",
+      title: "Social Media Dashboard",
       description:
-        "Machine learning project implementing LIME and SHAP for model interpretability. Provides visual explanations for predictions, feature importance analysis, and interactive model exploration capabilities.",
-      technologies: ["Python", "TensorFlow", "LIME", "SHAP", "Keras"],
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/36d04d47-be35-445f-bda6-415552f5587c.jpg",
+        "Comprehensive social media management platform with post scheduling, analytics tracking, and multi-account support. Features real-time notifications, engagement metrics, and content calendar management.",
+      technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io"],
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/1be9f0f3-755c-47a7-8829-8cd7627cc654.jpg",
       github: "#",
       demo: "#",
+      category: "Development",
     },
     {
-      title: "Data Visualization Dashboard",
+      title: "Real-Time Chat Application",
       description:
-        "Interactive analytics dashboard for real-time data visualization and business intelligence. Features dynamic charts, customizable widgets, and comprehensive data filtering with export capabilities.",
-      technologies: ["React", "D3.js", "Node.js", "Chart.js", "Express.js"],
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/0a04027e-b086-4eb4-916c-b04035fc0cbe.jpg",
+        "Modern messaging platform with real-time communication, group chats, file sharing, and end-to-end encryption. Built with WebSocket technology for instant message delivery and online status tracking.",
+      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express.js"],
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/0dd7cbd5-f95f-45cc-82ae-11832344c4e6.jpg",
       github: "#",
       demo: "#",
+      category: "Development",
     },
   ];
 
@@ -51,7 +65,7 @@ const Projects = () => {
             <span className="gradient-text">Featured Projects</span>
           </h2>
           <p className="text-muted-foreground text-base xl:text-lg max-w-2xl mx-auto">
-            Showcasing innovative solutions combining full-stack development with AI/ML capabilities
+            Showcasing 3 full-stack development projects and 2 AI/ML solutions
           </p>
         </div>
 

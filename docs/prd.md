@@ -3,8 +3,7 @@
 ## 1. Website Overview
 
 ### 1.1 Website Name
-
-Personal Portfolio - MERN Stack & AI/ML Engineer
+\nPersonal Portfolio - MERN Stack & AI/ML Engineer
 
 ### 1.2 Website Description
 
@@ -26,78 +25,71 @@ Recruiters, potential employers, clients, and tech community members interested 
 ### 2.2 Skills & Tech Stack Section
 
 Organized into four clear categories:
-\n**Full-Stack/Web Development:**
 
+**Full-Stack/Web Development:**
 - React, Next.js, Node.js, Express.js, MongoDB, JavaScript, TypeScript, TailwindCSS
-  \n**AI/ML & Advanced NLP:**
+\n**AI/ML & Advanced NLP:**
 - Python, Hugging Face, Transformers, TensorFlow, Keras, NLTK, SpaCy, Scikit-learn, NumPy, Pandas
-
-**Databases & Tools:**
-
-- MySQL, Git, Linux, Cloudinary
-
+\n**Databases & Tools:**
+- MySQL, Git, Linux, Cloudinary\n
 **Other Technologies:**
-
-- Java, C, Power BI, VBA
-
+- Java, C, Power BI, VBA\n
 ### 2.3 Projects (Featured Work) Section
 
-Four detailed project cards, each containing:
-
+Five detailed project cards, each containing:
 - Project title\n- 2-3 sentence description
 - Key technologies used
 - Placeholder links for GitHub repository and live demo
+\n**Project 1 - Full-Stack MERN Application:**
+- Robust full-stack application (e.g., E-commerce platform or social networking site)
+- Technologies: MongoDB, Express.js, React, Node.js\n- Key features highlighted\n\n**Project 2 - Full-Stack Next.js Application:**
+- Modern web application built with Next.js (e.g., Content management system or booking platform)
+- Technologies: Next.js, React, Node.js, MongoDB/MySQL
+- Server-side rendering and API integration
 
-**Project 1 - Full-Stack AI Application:**
-
-- Advanced NLP application (e.g., AI-powered text summarizer or intelligent chatbot)
+**Project 3 - Full-Stack AI-Integrated Application:**
+- Advanced application integrating AI capabilities (e.g., AI-powered recommendation system or intelligent search)
 - Technologies: MERN/Next.js stack integrated with Python/Transformers
 - Deployment details included
 
-**Project 2 - MERN Stack Application:**
+**Project 4 - AI/ML NLP Project:**
+- Natural Language Processing application (e.g., Text classification, sentiment analysis, or chatbot)
+- Technologies: Python, Hugging Face, Transformers, NLTK, SpaCy
+- Model training and deployment details
 
-- Robust full-stack application (e.g., E-commerce platform or social networking site)
-- Technologies: MongoDB, Express.js, React, Node.js
-- Key features highlighted
-
-**Project 3 - AI/XAI Focus:**
-
-- Machine Learning project implementing Explainable AI techniques
-- Technologies: Python, LIME/SHAP, TensorFlow/Keras
+**Project 5 - AI/XAI Focus:**
+- Machine Learning project implementing Explainable AI techniques\n- Technologies: Python, LIME/SHAP, TensorFlow/Keras
 - Emphasis on model transparency and interpretability
 
-**Project 4 - Data Visualization/Web Development:**
+### 2.4 Experience & Internship Section
 
-- Data-driven web application or interactive dashboard
-- Technologies: React, D3.js/Chart.js, or relevant visualization libraries
-  \n### 2.4 Experience & Internship Section
-  Timeline/vertical list format displaying:
-  \n**MERN Stack Developer Intern:**
+Timeline/vertical list format displaying:
+\n**MERN Stack Developer Intern:**
 - RESTful API development and integration
 - React component architecture and state management
 - Database design and optimization
 - Collaborative development using Git
 
 **Data Science Analyst Internship:**
-
 - NLP model implementation and fine-tuning
 - Data analysis and reporting using Python
 - Machine learning pipeline development
 - Business intelligence dashboard creation
 
-### 2.5 Education Section\n- **Degree:** B.Tech in Computer Science and Engineering
+### 2.5 Education Section
 
+- **Degree:** B.Tech in Computer Science and Engineering
 - **Institution:** University Name, Mumbai
-- **Relevant Coursework:** Data Structures, Algorithms, Machine Learning, Web Development, Database Management Systems, Natural Language Processing
+- **Relevant Coursework:** Data Structures, Algorithms, Machine Learning, Web Development, Database Management Systems, Natural Language Processing\n- **Note:** Coursework tags should be displayed with sufficient contrast (teal/cyan color #06b6d4 or #14b8a6) against the dark background to ensure visibility
 
-### 2.6 Achievements Section\n- 🏆 Women Who Code Fullstack Hackathon Winner (prominently featured)
+### 2.6 Achievements Section
 
+- 🏆 Women Who Code Fullstack Hackathon Winner (prominently featured)
 - Top Contributor on GitHub
 - Technical certification placeholder
 - Other notable achievements
 
-### 2.7 Contact Section
-
+### 2.7 Contact Section\n
 - **Email:** gandhidivya2710@gmail.com
 - LinkedIn: Placeholder link
 - **GitHub:** Placeholder link
@@ -111,7 +103,8 @@ Four detailed project cards, each containing:
 - **Frontend:** HTML5, CSS3 (TailwindCSS preferred), JavaScript/React
 - **Architecture:** Single-page application with smooth scrolling navigation
 - **Responsive Design:** Fully responsive across desktop, tablet, and mobile devices
-  \n### 3.2 Code Structure
+\n### 3.2 Code Structure
+
 - Inline comments indicating where to insert specific project descriptions, dates, and links
 - Modular component structure for easy maintenance
 - Clean, well-organized code following best practices
@@ -121,13 +114,10 @@ Four detailed project cards, each containing:
 - Smooth scrolling between all sections
 - Fixed/sticky navigation bar (optional)
 - Clear section anchors for direct linking
-
-## 4. Design Style\n
-
+\n## 4. Design Style\n
 ### 4.1 Theme & Aesthetic
 
-- **Overall Style:** Modern, minimalist, and technical
-- **Color Scheme:** Dark theme with deep gray/black background (#0f172a, #1e293b) and teal/cyan accent colors (#06b6d4, #14b8a6) for highlights and interactive elements
+- **Overall Style:** Modern, minimalist, and technical\n- **Color Scheme:** Dark theme with deep gray/black background (#0f172a, #1e293b) and teal/cyan accent colors (#06b6d4, #14b8a6) for highlights and interactive elements
 - **Typography:** Clean, professional sans-serif fonts (e.g., Inter, Poppins) with clear hierarchy
 
 ### 4.2 Visual Elements
@@ -137,6 +127,7 @@ Four detailed project cards, each containing:
 - **Icons:** Technology stack icons and social media icons with consistent styling
 - **Shadows:** Subtle shadow effects on cards for depth (e.g., shadow-lg with dark theme variations)
 - **Borders:** Minimal use of borders, primarily using teal/cyan accent colors where needed
+- **Contrast:** Ensure all text and tags (especially in Education section) have sufficient contrast against dark background for readability
 
 ### 4.3 Interactive Elements
 
@@ -151,3 +142,8 @@ Four detailed project cards, each containing:
 - Achievement-focused content presentation
 - Technical expertise clearly communicated
 - Action-oriented call-to-actions
+
+## 5. Reference Images
+
+- screenshot.png: Shows the Skills section layout with technology tags
+- screenshot.png: Shows the Education section with coursework display (note: coursework tags need improved visibility with brighter accent colors)

@@ -123,8 +123,8 @@ const Experience = () => {
                   {education.coursework.map((course, index) => (
                     <Badge
                       key={index}
-                      variant="secondary"
-                      className="bg-muted hover:bg-secondary/20 hover:text-secondary transition-colors text-xs xl:text-sm"
+                      variant="outline"
+                      className="bg-secondary/10 border-secondary/30 text-foreground hover:bg-secondary hover:text-secondary-foreground transition-all duration-300 text-xs xl:text-sm px-3 py-1.5 hover:scale-105"
                     >
                       {course}
                     </Badge>
