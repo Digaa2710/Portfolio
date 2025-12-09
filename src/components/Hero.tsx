@@ -1,4 +1,4 @@
-import { ArrowDown, Trophy } from "lucide-react";
+import { ArrowDown, Trophy, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -8,6 +8,16 @@ const Hero = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+  const handleDownloadResume = () => {
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '"/Resume/Divya_Gandhi_Resume.pdf"'; // Path to resume file in public folder
+    link.download = 'Divya_Gandhi_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -47,6 +57,15 @@ const Hero = () => {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground w-full sm:w-auto text-sm md:text-base lg:text-lg px-6 md:px-8 py-5 md:py-6 hover:scale-105 transition-transform"
               >
                 View Projects
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                onClick={handleDownloadResume}
+                className="bg-primary hover:bg-primary/90 text-primary-foreground w-full sm:w-auto text-sm md:text-base lg:text-lg px-6 md:px-8 py-5 md:py-6 hover:scale-105 transition-transform"
+              >
+                <Download className="w-4 h-4 md:w-5 md:h-5 mr-2" />
+                Download Resume
               </Button>
               <Button
                 size="lg"

@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-xl xl:text-2xl font-bold gradient-text hover:opacity-80 transition-opacity"
           >
-            Portfolio
+            Divya Gandhi
           </button>
 
           <div className="hidden xl:flex items-center gap-8">
