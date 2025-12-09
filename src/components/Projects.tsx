@@ -41,7 +41,7 @@ const Projects = () => {
     "Built an end-to-end AI-powered email system using Java Full Stack (Spring Boot). The application utilizes a Large Language Model (LLM) for advanced communication automation, analyzing the tone of incoming emails and generating context-aware responses via sophisticated Prompt Engineering and robust REST APIs. The frontend is built with React.js.",
   technologies: ["Java", "Spring Boot", "React.js", "Large Language Model (LLM)", "REST APIs", "Prompt Engineering"],
   image: "https://miaoda-site-img.s3cdn.medo.dev/images/1be9f0f3-755c-47a7-8829-8cd7627cc654.jpg", 
-  github: "https://github.com/Digaa2710/Job-Scraper", 
+  github: "https://github.com/Digaa2710/Email-Writer", 
   demo: "#", 
   category: "Full-Stack AI (Java/LLM)",
 },
@@ -64,9 +64,7 @@ const Projects = () => {
           <h2 className="text-3xl xl:text-5xl font-bold mb-4">
             <span className="gradient-text">Featured Projects</span>
           </h2>
-          <p className="text-muted-foreground text-base xl:text-lg max-w-2xl mx-auto">
-            Showcasing 3 full-stack development projects and 2 AI/ML solutions
-          </p>
+         
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-8 max-w-7xl mx-auto">

@@ -27,9 +27,7 @@ const Achievements = () => {
           <h2 className="text-3xl xl:text-5xl font-bold mb-4">
             <span className="gradient-text">Achievements & Recognition</span>
           </h2>
-          <p className="text-muted-foreground text-base xl:text-lg max-w-2xl mx-auto">
-            Milestones and accomplishments in technology and innovation
-          </p>
+         
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-8 max-w-6xl mx-auto">

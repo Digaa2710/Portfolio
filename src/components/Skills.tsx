@@ -37,7 +37,7 @@ const Skills = () => {
     {
       title: "Databases & Tools",
       icon: Database,
-      skills: ["MySQL", "Git", "Linux", "Cloudinary"],
+      skills: ["MySQL", "Git", "Cloudinary"],
     },
     {
       title: "Other Technologies",
@@ -53,9 +53,7 @@ const Skills = () => {
           <h2 className="text-3xl xl:text-5xl font-bold mb-4">
             <span className="gradient-text">Skills & Tech Stack</span>
           </h2>
-          <p className="text-muted-foreground text-base xl:text-lg max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern web applications and AI-powered solutions
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-8 max-w-6xl mx-auto">

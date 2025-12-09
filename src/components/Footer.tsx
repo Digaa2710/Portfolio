@@ -40,9 +40,7 @@ const Footer: React.FC = () => {
             <p className="text-sm xl:text-base text-muted-foreground">
               &copy; {currentYear} Divya Gandhi Personal Portfolio
             </p>
-            <p className="text-xs xl:text-sm text-muted-foreground/70 mt-1">
-              Built with React, TypeScript, and TailwindCSS
-            </p>
+            
           </div>
 
         </div>
