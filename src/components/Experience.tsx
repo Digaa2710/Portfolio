@@ -17,6 +17,19 @@ const Experience = () => {
   ],
   type: "Internship",
 },
+{
+  title: "Full-Stack Web Developer",
+  company: "Oggntech",
+  period: "July 2024 – September 2024",
+  location: "Mumbai, Maharashtra",
+  description: [
+    "Developed and deployed responsive full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js), ensuring seamless integration and user-friendly interfaces.",
+    "Utilized Figma for comprehensive UI/UX design, translating high-fidelity prototypes into functional web components.",
+    "Optimized MySQL queries and designed efficient database structures for improved application performance.",
+    "Collaborated with cross-functional teams to integrate RESTful APIs, enhance frontend design, and improve overall application performance."
+  ],
+  type: "Internship",
+},
     
   ];
 
