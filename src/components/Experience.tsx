@@ -5,32 +5,29 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-  title: "Full-Stack Web Developer",
-  company: "Oggntech",
-  period: "July 2024 – September 2024",
-  location: "Mumbai, Maharashtra",
-  description: [
-    "Developed and deployed responsive full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js), ensuring seamless integration and user-friendly interfaces.",
-    "Utilized Figma for comprehensive UI/UX design, translating high-fidelity prototypes into functional web components.",
-    "Optimized MySQL queries and designed efficient database structures for improved application performance.",
-    "Collaborated with cross-functional teams to integrate RESTful APIs, enhance frontend design, and improve overall application performance."
-  ],
-  type: "Internship",
-},
-{
-  title: "Full-Stack Web Developer",
-  company: "Oggntech",
-  period: "July 2024 – September 2024",
-  location: "Mumbai, Maharashtra",
-  description: [
-    "Developed and deployed responsive full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js), ensuring seamless integration and user-friendly interfaces.",
-    "Utilized Figma for comprehensive UI/UX design, translating high-fidelity prototypes into functional web components.",
-    "Optimized MySQL queries and designed efficient database structures for improved application performance.",
-    "Collaborated with cross-functional teams to integrate RESTful APIs, enhance frontend design, and improve overall application performance."
-  ],
-  type: "Internship",
-},
-    
+      title: "Research Intern",
+      company: "Mumbai, Maharashtra",
+      period: "November 2025 – March 2026",
+      location: "Mumbai, Maharashtra",
+      description: [
+        "Developed LawMedioAI, a RAG-based legal assistance platform using ChromaDB and BAAI/bge-small-en-v1.5, embedding legal data into 109 vector chunks.",
+        "Built a YOLOv8n accident severity classifier on 582 scraped images, achieving 75.4% accuracy with 0.7 ms/image inference speed.",
+      ],
+      type: "Internship",
+    },
+    {
+      title: "Full-Stack Web Developer",
+      company: "Oggntech",
+      period: "July 2024 – September 2024",
+      location: "Mumbai, Maharashtra",
+      description: [
+        "Developed and deployed responsive full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js), ensuring seamless integration and user-friendly interfaces.",
+        "Utilized Figma for comprehensive UI/UX design, translating high-fidelity prototypes into functional web components.",
+        "Optimized MySQL queries and designed efficient database structures for improved application performance.",
+        "Collaborated with cross-functional teams to integrate RESTful APIs, enhance frontend design, and improve overall application performance.",
+      ],
+      type: "Internship",
+    },
   ];
 
   const education = {
@@ -54,7 +51,6 @@ const Experience = () => {
           <h2 className="text-3xl xl:text-5xl font-bold mb-4">
             <span className="gradient-text">Experience & Education</span>
           </h2>
-         
         </div>
 
         <div className="max-w-4xl mx-auto space-y-6 xl:space-y-8">
